@@ -1,0 +1,799 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+.topDiv
+{
+    margin-top: -1px;
+    height: 5.3vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+.topDiv2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70.72vw;
+    height: 5vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    border-left: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+}
+.topDiv3
+{
+    width: 23.75vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.topDiv4
+{
+    width: 17.9vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.topDiv5
+{
+    width: 5.9vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.topDiv6
+{
+    width: 23.9vw;
+}
+header
+{
+    margin-top: -2px;
+    border-top: none;
+    width: auto;
+    height: 5.6vh;
+    border-top: 1px solid rgba(42, 50, 62);
+    overflow: visible;
+}
+
+.hDiv
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70.72vw;
+    height: 22vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    border-left: 1px solid rgba(42, 50, 62);
+    color: white;
+    font-size: 125px;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+
+}
+
+.hDiv1
+{
+
+    width: 23.5vw;
+    overflow: visible;
+    white-space: nowrap;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.hDiv1 span {
+    opacity: 0;
+    margin-top: 50px;
+
+    display: inline-block;
+}
+.h3Div1
+{
+    border-radius: 25px;
+    margin-top: -18vh;
+    margin-left: 35vw;
+    height: 5vh;
+    width: 6vw;
+    background-color: greenyellow;
+    position: relative;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+
+}
+.hDiv1 svg
+{
+    margin-left: 36vw;
+    margin-bottom: 330px;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+.h3Div1 p
+{
+    font-size: 0.6vw;
+    margin-left: 8px;
+    position: relative;
+    top: 1.7vh;
+    color: black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-10px, -20px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+.hDiv2
+{
+    width: 17.85vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.hDiv3
+{
+    width: 5.9vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.hDiv4
+{
+
+    width: 23.9vw;
+    background-image: linear-gradient(to bottom right, #000000, #0a1a2a);
+
+    border-bottom: 1px solid rgba(42, 50, 62);
+}
+.music
+{
+    animation: fadeIn 1s ease forwards;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(119 129 143);
+    font-family: 'Dhurjati', sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+.music img
+{
+    margin-top: 2vh;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.music img:hover
+{
+    transform: scale(1.1);
+}
+
+.musicTitle
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 2vh;
+    text-decoration: none;
+
+
+}
+.hiemdal img
+{
+    margin-right: 4vw;
+}
+.hiemdal
+{
+    margin-left: 5vw;
+
+    font-size: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+
+}
+.hiemdalText
+{
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 7.5vw;
+    margin-bottom: 2vh;
+    margin-top: -3.5vh;
+}
+.secondDivs
+{
+    margin-top: 16.3vh;
+    width: auto;
+    height: 5.6vh;
+    border-top: 1px solid rgba(42, 50, 62);
+}
+
+.secondDiv
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70.72vw;
+    height: 54vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    border-left: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+    color: white;
+}
+.secondDiv1
+{
+    width: 23.75vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    color: white;
+
+}
+
+.aboutMe
+{
+    margin: 2vw;
+    animation: fadeIn 1s ease forwards;
+    font-family: 'Dhurjati', sans-serif;
+
+}
+.aboutMe h2
+{
+    font-size: 50px;
+    font-family: 'Nova Square', sans-serif;
+}
+.aboutmeText
+{
+    color: rgb(119 129 143);
+}
+
+.secondDiv2
+{
+    width: 23.8vw;
+    border-right: 1px solid rgba(42, 50, 62);
+}
+.secondDiv2IMG img
+{
+
+}
+.secondDiv3
+{
+    animation: fadeIn 1s ease forwards;
+    width: 23.9vw;
+    color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 0.75C1.5 1.16421 1.16421 1.5 0.75 1.5C0.335786 1.5 0 1.16421 0 0.75C0 0.335786 0.335786 0 0.75 0C1.16421 0 1.5 0.335786 1.5 0.75Z' fill='%2339393D'/%3E%3C/svg%3E%0A");
+
+}
+
+.tool1
+{
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.tool2
+{
+    margin-top: 3vh;
+
+}
+.tool2 img
+{
+    margin-top: 3vh;
+    width: 4vw;
+    height: 6vh;
+    margin-left: 2vw;
+}
+.tools
+{
+    margin: 1vw;
+}
+.thirdDivs
+{
+    margin-top: 48.2vh;
+    width: auto;
+    height: 5.6vh;
+    border-top: 1px solid rgba(42, 50, 62);
+
+
+}
+.iconA
+{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.iconA:hover
+{
+    transform: scale(1.2);
+}
+.thirdDiv
+{
+
+    display: flex;
+    justify-content: space-between;
+    width: 70.75vw;
+    height: 36vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-left: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+
+}
+.thirdDiv1
+{
+    animation: fadeIn 1s ease forwards;
+    width: 23.75vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    color: greenyellow;
+    font-family: 'Dhurjati', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+
+
+}
+.socialMedia p {
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Dhurjati', sans-serif;
+}
+.socialMedia
+{
+
+}
+.blockSocial
+{
+    width: 15vw;
+    height: 8vh;
+    background-color: black;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid rgba(42, 50, 62);
+    opacity: 0.8;
+    text-decoration: none;
+    z-index: 3;
+    position: relative;
+
+
+}
+
+.blockSocialName
+{
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    margin-left: 15px;
+    text-decoration: white;
+}
+.blockSocialText
+{
+    color: grey;
+    text-align: left;
+    padding-left: 30px;
+    margin: -15px;
+}
+
+.blockSocialAnim {
+
+    width: 110px;
+    height: 73px;
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: -70px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+}
+
+.blockSocialAnim img {
+
+    border-radius: 20px;
+    width: 100px;
+    height:70px;
+    transform: rotate(-40deg);
+    z-index: -1;
+    transition: transform 0.5s ease-in-out;
+}
+.blockSocial:hover .blockSocialAnim img {
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.blockSocial:hover
+{
+    opacity: 1;
+}
+.blockSocialWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.thirdDiv2
+{
+    width: calc(23.8vw + 23.9vw);
+    border-right: 1px solid rgba(42, 50, 62);
+    background-image: linear-gradient(to bottom right, #000000, #0a1a2a);
+    font-size: 18px;
+    font-family: 'Dhurjati', sans-serif;
+    text-align: center;
+    animation: fadeIn 1s ease forwards;
+
+}
+.certTitle
+{
+    margin: 2vw;
+    color: white;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 40px;
+    font-family: 'Nova Square', sans-serif;
+}
+.certIMG
+{
+    margin-top: 3vh;
+    margin-right: 100px;
+}
+.certIMG img
+{
+    width: 100px;
+    display: inline-block;
+    margin-left: 80px;
+    height: 100px;
+}
+.certText
+{
+    color: white;
+    display: inline-block;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.certificates {
+    display: flex;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    transition: transform 0.3s ease;
+
+}
+.aCert
+{
+    text-decoration: none;
+}
+.certificate:hover
+{
+    transform: scale(1.2);
+}
+
+.certificate img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1px;
+}
+
+
+.fourthDivs
+{
+    margin-top: 30.4vh;
+    width: auto;
+    height: 5.6vh;
+
+
+}
+
+.fourthDiv
+{background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 0.75C1.5 1.16421 1.16421 1.5 0.75 1.5C0.335786 1.5 0 1.16421 0 0.75C0 0.335786 0.335786 0 0.75 0C1.16421 0 1.5 0.335786 1.5 0.75Z' fill='%2339393D'/%3E%3C/svg%3E%0A");
+    display: flex;
+    justify-content: space-between;
+    width: 70.72vw;
+    height: 42vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-right: 1px solid rgba(42, 50, 62);
+    border-left: 1px solid rgba(42, 50, 62);
+    border-top: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+    color: white;
+
+
+}
+.fourDiv1
+{
+    width: calc(23.8vw + 23.9vw + 23.75vw);
+    border-right: 1px solid rgba(42, 50, 62);
+
+
+}
+.projectSoon
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dhurjati', sans-serif;
+    margin-left: 13vw;
+    animation: fadeIn 1s ease forwards;
+}
+
+footer
+{
+    margin-top: 36.4vh;
+    width: auto;
+    height: 5.6vh;
+    border-top: 1px solid rgba(42, 50, 62);
+}
+footer a
+{
+    color: white;
+}
+.footerDivs
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70.75vw;
+    height: 22.5vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-left: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+}
+.footerDiv
+{
+    width: calc(23.8vw + 23.9vw + 23.75vw);
+    border-right: 1px solid rgba(42, 50, 62);
+    animation: fadeIn 1s ease forwards;
+}
+
+.footer1
+{
+    margin-top: 8vh;
+    text-align: center;
+    color: rgb(119 129 143);
+    opacity: 0.8;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+
+}
+.footer3
+{
+    margin-top: 4vh;
+    opacity: 0.6;
+}
+
+
+
+
+
+.fifthDivs
+{
+    margin-top: 16.8vh;
+    width: auto;
+    height: 5.6vh;
+    border-top: 1px solid rgba(42, 50, 62);
+}
+
+.fifthDiv
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70.75vw;
+    height: 6.7vh;
+    background-color: black;
+    margin-left: 14.18vw;
+    border-left: 1px solid rgba(42, 50, 62);
+    margin-bottom: 0;
+}
+.fifthDiv1
+{
+    width: calc(23.8vw + 23.9vw + 23.75vw);
+    border-right: 1px solid rgba(42, 50, 62);
+}
+
+
+.hDiv1 span {
+    opacity: 0;
+}
+.hDiv1 span:nth-child(1) {
+    animation: fadeIn 0.5s ease forwards 0.1s;
+}
+.hDiv1 span:nth-child(2) {
+    animation: fadeIn 0.5s ease forwards 0.2s;
+}
+.hDiv1 span:nth-child(3) {
+    animation: fadeIn 0.5s ease forwards 0.3s;
+}
+.hDiv1 span:nth-child(4) {
+    animation: fadeIn 0.5s ease forwards 0.4s;
+}
+.hDiv1 span:nth-child(5) {
+    animation: fadeIn 0.5s ease forwards 0.5s;
+}
+.hDiv1 span:nth-child(6) {
+    animation: fadeIn 0.5s ease forwards 0.6s;
+}
+.hDiv1 span:nth-child(7) {
+    animation: fadeIn 0.5s ease forwards 0.7s;
+}
+.hDiv1 span:nth-child(8) {
+    animation: fadeIn 0.5s ease forwards 0.8s;
+}
+.hDiv1 span:nth-child(9) {
+    animation: fadeIn 0.5s ease forwards 0.9s;
+}
+.hDiv1 span:nth-child(10) {
+    animation: fadeIn 0.5s ease forwards 1s;
+}
+.hDiv1 span:nth-child(11) {
+    animation: fadeIn 0.5s ease forwards 1.1s;
+}
+
+#cards {
+    margin-top: 5vh;
+    height: 48vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 0;
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+
+
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    height: 45vh;
+    transition: scale 100ms;
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+}
+
+.card .card-front-image {
+    position: relative;
+    z-index: 2;
+    height: 45vh;
+}
+
+.card .card-image {
+    width: clamp(300px, 17.5vw, 500px);
+    aspect-ratio: 1/1;
+    border-radius: clamp(0.5rem, 0.75vw, 2rem);
+    background-color: black;
+}
+
+.card-faders {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1500ms;
+    pointer-events: none;
+    background-color: black;
+}
+
+.card:hover .card-faders {
+    opacity: 1;
+    background-color: black;
+
+}
+
+.card:active {
+    scale: 0.98;
+}
+
+.card-fader {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card-fader:nth-child(odd) {
+    animation: fade-left 3s linear infinite;
+}
+
+.card-fader:nth-child(even) {
+    animation: fade-right 3s linear infinite;
+}
+
+.card-fader:is(:nth-child(3), :nth-child(4)) {
+    animation-delay: 750ms;
+}
+
+.card-fader:is(:nth-child(5), :nth-child(6)) {
+    animation-delay: 1500ms;
+}
+
+.card-fader:is(:nth-child(7), :nth-child(8)) {
+    animation-delay: 2250ms;
+}
+
+@media(max-width: 1200px) {
+    body {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding: 4rem;
+    }
+
+    .card .card-image {
+        width: 400px;
+    }
+}
+
+@media(max-width: 600px) {
+    #cards {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card .card-image {
+        width: 100%;
+    }
+}
+
+@keyframes fade-left {
+    from {
+        scale: 1;
+        translate: 0;
+        opacity: 1;
+        height: 100%;
+    }
+
+    to {
+        scale: 0.8;
+        translate: -30%;
+        opacity: 0;
+        height: 100%;
+    }
+}
+
+@keyframes fade-right {
+    from {
+        scale: 1;
+        translate: 0;
+        opacity: 1;
+        height: 100%;
+    }
+
+    to {
+        scale: 0.8;
+        translate: 30%;
+        opacity: 0;
+        height: 100%;
+    }
+}
+
+
+

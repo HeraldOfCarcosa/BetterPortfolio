@@ -2,15 +2,253 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>
+            {% block title %}
+
+                JJabłoński.com
+            {% endblock %}
+        </title>
+        <link rel="icon" type="image/png" href="{{ asset('css/images/logo2.png') }}">
         {% block stylesheets %}
+            <link rel="stylesheet" href="{{asset ('css/portfolioStyle.css')}}">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&display=swap" rel="stylesheet">
         {% endblock %}
 
-        {% block javascripts %}
-        {% endblock %}
     </head>
     <body>
+    <audio autoplay>
+        <source src="{{ asset('music/music2.mp3') }}" type="audio/mpeg">
+    </audio>
+
+    <div>
+
+        <div class="topDiv">
+                <div class="topDiv2">
+                    <div class="topDiv3"></div>
+                    <div class="topDiv4"></div>
+                    <div class="topDiv5"></div>
+                    <div class="topDiv6"></div>
+                </div>
+
+        </div>
+
+        <header>
+            <div class="hDiv">
+                <div class="hDiv1">
+                    <div class="h2Div1" id="wordAnimation"></div>
+                    <div class="h3Div1" id="cloudAnimation">
+                        <p id="greeting"></p>
+                    </div>
+                    <svg width="20" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 0 0 L 10 10 L 20 0 Z" fill="greenyellow" />
+                    </svg>
+
+                </div>
+                <div class="hDiv2"></div>
+                <div class="hDiv3"></div>
+                <div class="hDiv4">
+                    <div class="recent">
+                        <div class="recentFav"></div>
+                        <a class="music" href="https://www.youtube.com/watch?v=YwzsJARwLzk&t=28s&pp=ygUjbGFzdCBzdW5zZXQgYmVmb3JlIHRoZSBwb2xhciBuaWdodCA%3D" target="_blank">
+
+                            <div class="musicTitle">
+                                Music I Recommend
+
+                                <div class="hiemdal">
+                                    <img src="{{ asset('css/images/a3783494303_16.jpg') }}">
+                                                  Hiemal
+                                </div>
+                                <div class="hiemdalText">The Last Sunset Before The Polar Night
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="secondDivs">
+            <div class="secondDiv">
+                <div class="secondDiv1">
+                    <div class="aboutMe">
+                        <h2> About me</h2>
+                        <div class="aboutmeText">
+                            I am diligent student from Poland that loves learning, creating and enhancing things.
+                            I love to read, travel, and occasionally I like to hike while taking pictures.
+                        </div><br>
+                        <div class="aboutmeText">
+                            As of right now I am creating new projects every day to enhance my abilities and knowledge of frameworks such as Symfony and Angular.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="secondDiv2">
+
+
+
+                    <div id="cards">
+
+                        <div class="card" data-color="blue">
+                            <a href="https://www.linkedin.com/in/jonatan-jab%C5%82o%C5%84ski-53540a224/" target="_blank">
+                                <img class="card-front-image card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                            </a>
+
+                            <div class="card-faders">
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                                <img class="card-fader card-image" src="{{ asset('css/images/20180930_1556552.jpg') }}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondDiv3">
+                    <div class="tool1">
+                        What do I use:
+                    </div>
+                    <div class="tools">
+                    <div class="tool2">
+                        <a class="iconA" href="https://symfony.com/" target="_blank"><img  src="https://img.icons8.com/color/480/symfony.png" alt="symfony"/></a>
+                        <a class="iconA" href="https://angular.io/" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-angular-a-typescript-based-open-source-web-application-framework-logo-color-tal-revivo.png" alt="external-angular-a-typescript-based-open-source-web-application-framework-logo-color-tal-revivo"/>
+                        </a><a class="iconA" href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank"><img  src="https://img.icons8.com/color/240/javascript--v1.png" alt="javascript--v1"/>
+                        </a> </div>
+                    <div class="tool2">
+                        <a class="iconA" href="https://dev.mysql.com/doc/" target="_blank"><img  src="https://img.icons8.com/arcade/64/sql.png" alt="sql"/></a>
+                        <a class="iconA" href="https://www.php.net/" target="_blank"><img  src="https://img.icons8.com/fluency/96/php.png" alt="php"/></a>
+                        <a class="iconA" href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png" alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo"/>
+                        </a></div>
+                    <div class="tool2">
+                        <a class="iconA" href="https://www.java.com" target="_blank"><img  src="https://img.icons8.com/color/480/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/></a>
+                        <a class="iconA" href="https://devdocs.io/cpp/" target="_blank"> <img  src="https://img.icons8.com/color/480/c-plus-plus-logo.png" alt="c-plus-plus-logo"/></a>
+                        <a class="iconA" href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"> <img  src="https://img.icons8.com/fluency/240/c-sharp-logo.png" alt="c-sharp-logo"/></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdDivs">
+            <div class="thirdDiv">
+                <div class="thirdDiv1">
+                    <div class="socialMedia">
+                        <p>Social Media</p>
+                    </div>
+                    <div class="blockSocialWrapper">
+                        <a href="https://www.linkedin.com/in/jonatan-jab%C5%82o%C5%84ski-53540a224/" target="_blank" class="blockSocial">
+                            <div class="blockSocialName">
+                                Linkedin
+                            </div>
+                            <div class="blockSocialText">
+                                Read more about me
+                            </div>
+                            <div class="blockSocialAnim">
+                                <img src="{{ asset('css/images/linken.png') }}" alt="Curved Image">
+                            </div>
+                        </a>
+                        <a href="https://github.com/HeraldOfCarcosa" target="_blank" class="blockSocial">
+                            <div class="blockSocialName">
+                                GitHub
+                            </div>
+                            <div class="blockSocialText">
+                                Check out my repositories
+                            </div>
+                            <div class="blockSocialAnim">
+                                <img src="{{ asset('css/images/git2.jpeg') }}" alt="Curved Image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="thirdDiv2">
+                    <div class="certTitle">
+                        Certificates
+                    </div>
+                    <div class="certificates">
+                        <a class="aCert" href="{{ asset('css/images/cert1.png') }}">
+                        <div class="certificate">
+                            <img src="{{ asset('css/images/a2s-logo-small.png') }}">
+                            <p>Angular Cert</p>
+                        </div>
+                        </a>
+                        <a class="aCert" href="{{ asset('css/images/cert2.png') }}">
+                        <div class="certificate">
+                            <img src="{{ asset('css/images/LanguageCert--2133347178.jpg') }}">
+                            <p>English Cert</p>
+                        </div>
+                        </a>
+                        <a class="aCert" href="">
+                        <div class="certificate">
+                            <img src="{{ asset('css/images/szkolaSymfony.png') }}">
+                            <p>Symfony Cert</p>
+                        </div>
+                        </a>
+                        <a class="aCert" href="{{ asset('css/images/cert4.png') }}">
+                        <div class="certificate">
+                            <img src="{{ asset('css/images/cyberSec.png') }}">
+                            <p>CyberSecurity Cert</p>
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="fourthDivs">
+            <div class="fourthDiv">
+                <div class="fourthDiv1">
+                    <div class="projectSoon">
+                        <h1>Projects coming soon!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerDivs">
+                <div class="footerDiv">
+                    <div class="footer1">
+                        <div class="footer2">Anything is possible if we work together! Interested?
+                            <a href="mailto:jon.jablonf@gmail.com" class="inline-block text-gray-1000 underline decoration-green-400 dark:text-white"> Send me an Email!</a>
+                        </div>
+                        <div class="footer3">2023 © Jonatan Jabłoński</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="fifthDivs">
+            <div class="fifthDiv">
+                <div class="fifthDiv1"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <main>
         {% block body %}{% endblock %}
+    </main>
+
+
+
+
+    {% block javascripts %}
+        <script src="{{ asset('javascript/java2.js') }}"></script>
+    {% endblock %}
     </body>
 </html>
